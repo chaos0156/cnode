@@ -1,0 +1,52 @@
+@import '~@/index.less';
+
+.app-layout-header {
+  background-color: rgb(68, 68, 68);
+  .navbar-inner {
+    padding: 5px;
+    margin: 0 auto;
+  }
+  .brand {
+    padding: 3px 20px;
+    margin-left: -20px;
+  }
+  .se {
+    border: 0;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #888;
+    .bi-icon-label {
+      background: url('https://static2.cnodejs.org/public/images/search.e53b380a.hashed.png') 4px 4px no-repeat #888;
+      .x-icon {
+        display: none;
+      }
+    }
+    .bi-editor {
+      padding: 0 5px 0 22px;
+      width: 206px;
+      height: 20px;
+      .bi-label {
+        display: none;
+      }
+    }
+  }
+  .bi-search-editor:hover {
+    background-color: #fff;
+    .bi-icon-label {
+      background-color: #fff;
+    }
+  }
+  .btng {
+    font-size: 13px;
+    color: #ccc;
+    .btn {
+      padding: 10px 15px;
+      height: 20px;
+      line-height: 20px;
+    }
+    .btn:hover {
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}
